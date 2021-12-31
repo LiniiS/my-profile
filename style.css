@@ -382,6 +382,10 @@ p{
 #projects .projects-header p{
     text-align: center;
 }
+#projects .projects .projects-header p{
+    margin: 60px 60px;
+ }
+
 #projects .all-projects{
     display: flex;
     align-items: center;
@@ -670,6 +674,12 @@ p{
     /* fim skills*/
 
     /* projetos */
+
+    /* verificar essa margem */
+    #projects .projects .projects-header p{
+        margin: 60px 60px;
+     }
+
     #projects .project-item{
         flex-direction: row;
     }
@@ -809,6 +819,8 @@ p{
         font-weight: 500;
         margin-bottom: 30px;
     }
+
+    
 
     #projects .project-info h2{
         margin-bottom: 20px;
